@@ -188,3 +188,6 @@ int main (int    argc,
 
   return status;
 }
+
+// to run        gcc `pkg-config --cflags gtk+-3.0` -o example example-4.c `pkg-config --libs gtk+-3.0`
+
